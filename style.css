@@ -1,16 +1,21 @@
 @import url(fonts/fontawesome-webfont.eot );
 
-body{
-    font-family: Arial, Helvetica, sans-serif,Tahoma, Verdana, sans-serif;
-  
+body {
+    font-family: Arial, Helvetica, sans-serif, Tahoma, Verdana, sans-serif;
+
 }
-*{
+
+
+
+* {
     margin: 0 auto;
 }
-.header{
-    background-image: url(./images/dark_tint.png),url(./images/bokeh_car_lights_bg.jpg);
-    background-size:1023;
+
+.header {
+    background-image: url(./images/dark_tint.png), url(./images/bokeh_car_lights_bg.jpg);
+    background-size: 1023;
 }
+
 li {
     display: inline;
     margin-right: 25px;
@@ -20,7 +25,7 @@ li {
 nav.nav {
     position: absolute;
     right: 35px;
-    top:20px;
+    top: 20px;
 
 
 }
@@ -33,19 +38,20 @@ nav.nav {
     left: 30px;
     color: white;
 }
-.headInHeader:hover{
+
+.headInHeader:hover {
     text-decoration: underline;
 }
 
 .aa {
- 
+
     text-decoration: none;
     color: white;
 }
 
 .aa:hover {
     color: red;
-    transition: color 0.2s ease-in-out 
+    transition: color 0.2s ease-in-out
 }
 
 .Head2InHeader {
@@ -157,10 +163,11 @@ nav.nav {
         7px 7px 20px 0px rgba(0, 0, 0, .1),
         4px 4px 5px 0px rgba(0, 0, 0, .1); */
     outline: none;
-    margin-top: 85px;
+    margin-top: 90px;
 }
-.btnCenter{
-text-align: center;
+
+.btnCenter {
+    text-align: center;
 }
 
 .signUp:link {
@@ -170,46 +177,374 @@ text-align: center;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    border-radius:20px;
+    border-radius: 20px;
+}
+
+.signUp:hover,
+a:active {
+    background-color: red;
+}
+
+.facilities {
+    background-color: #F5F5F5;
+    padding-top: 60px;
+}
+
+.h1content {
+    text-align: center;
+
+}
+
+.pcontent {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+    color: #858585;
+}
+
+.box1 {
+    width: 350px;
+    height: 350px;
+    background-color: white;
+
+
+}
+
+.box2 {
+    width: 350px;
+    height: 350px;
+    background-color: white;
+
+}
+
+.box3 {
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    position: relative;
+
+
+}
+
+.boxes {
+    padding: 30px;
+    margin-bottom: 0px;
+    display: flex;
+}
+
+.img1 {
+    width: 150px;
+    position: relative;
+    margin: 0 0 0 95px;
+}
+
+.img2 {
+    width: 160px;
+    position: relative;
+    margin: 10px 0 0 92px;
+}
+
+.img3 {
+    width: 190px;
+    position: relative;
+    margin: 4px 0 0 89px;
+}
+
+.h2box {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.p2box {
+    text-align: center;
+    margin-top: 20px;
+    width: 270px;
+}
+
+.h1team {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.pteam {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.parners {
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+
+.pro1 {
+    border-radius: 50px;
+}
+
+.pro2 {
+    border-radius: 20px;
+}
+
+.pro3 {
+    border-radius: 50px;
+}
+
+.pro4 {
+    border-radius: 50px;
+}
+
+.parners {
+    display: flex;
+}
+
+.parners>div>img {
+    border-radius: 50px;
+
+}
+
+.pro1 {
+    margin-left: 20px;
+    position: relative;
+}
+
+.pro2 {
+    margin-left: 10px;
+    position: relative;
+}
+
+.pro3 {
+    margin-left: 10px;
+    position: relative;
+}
+
+.pro4 {
+    margin-left: 10px;
+    position: relative;
+}
+
+.hh2 {
+    left: 103px;
+    position: relative;
+    bottom: 80px;
+}
+
+.pp {
+    left: 103px;
+    position: relative;
+    bottom: 75px;
+}
+.text{
+    text-align: center;
+    width: 60%;
+    margin-top: 60px;
+    line-height: 30px;
+}
+.custom-btn1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  .btn-5 {
+    width: 170px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    background: rgb(30, 17, 209);
+  background: linear-gradient(0deg, rgb(33, 15, 196) 0%, rgb(39, 16, 238) 100%);
+  }
+  .btn-5:hover {
+    color: #f0094a;
+    background: transparent;
+     box-shadow:none;
+     color: blue;
+  }
+  .btn-5:before,
+  .btn-5:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: blue;
+    box-shadow:
+     -1px -1px 5px 0px #fff,
+     7px 7px 20px 0px #0003,
+     4px 4px 5px 0px #0002;
+    transition:400ms ease all;
+  }
+  .btn-5:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  /* .btn-5:hover:before,
+  .btn-5:hover:after{
+    width:80%;
+    transition:800ms ease all;
+  } */
+  .contact{
+      background-color: #3cadd4;
+  }
+  .h1contact{
+      padding-top: 100px;
+      text-align: center;
+      color: white;
+  }
+.pcontact{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.form{
+    text-align: center;
+    padding-top: 30px;
+}
+input[type=text]{
+    width: 200px;
+    height: 30px;
+    color: #525252;
+    border: 1px  rgb(102, 102, 102) solid;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: relative;
+    margin: 0 auto;
+  
+
+}
+input[type=email]{
+    width: 200px;
+    height: 30px;
+    color: #525252;
+    border: 1px  rgb(102, 102, 102) solid;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: relative;
+
+}
+#textarea{
+    border-radius: 5px;
+}
+.custom-btn2 {
+    width: 160px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
   }
   
-  .signUp:hover, a:active {
-    background-color: red;
+  /* 1 */
+  .btn-102 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    background: rgb(6,14,131);
+    background: linear-gradient(0deg, rgba(6,14,131,1) 0%, rgba(12,25,180,1) 100%);
+    border: none;
   }
-.facilities{
-    background-color: #F5F5F5;
+  .btn-102:hover {
+     background: rgb(0,3,255);
+  background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(2,126,251,1) 100%);
+  }
+
+
+  .firstcol{
+line-height: 35px;
+  }
+.footer{
+    background-color: #444;
+  
 }
-.h1content{
-    text-align: center;
-    margin-top: 80px;
+.footer1{
+
+    display: flex;
+    padding-left: 50px;
+    padding-top:80px;
+    padding-right: 50px;
+    color: white; 
+    padding-bottom: 50px;
+}
+span a{
+    color: #cdced0;
+    text-decoration: none;
+}
+span a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.hr0{
+    color:azure; 
+    width: 90%;
+    opacity: 0.2;
+    height: 0.005px;
+
+}
+.footer2{
+padding-top: 30px;
+padding-left: 100px;
+font-size: 15px;
+color: #858585;
+padding-bottom: 150px;
+}
+div.footer span{
+    margin-left: 20px;
+}
+  
+.icon4{
+    position: absolute;
+    right: 50px;
+    width: 70px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.icon3{
+    position: absolute;
+    right: 120px;
+    width: 53px;
+    cursor: pointer;
+    margin-top: 22px;
     
-
 }
-.pcontent{
-    text-align: center;
+.icon2{
+    position: absolute;
+    right: 190px;
+    width: 50px;
+    cursor: pointer;
+    margin-top: 30px;
 }
-.box1{
-    width: 30%;
-    height: 300px;
-    background-color: red;
-    float: left;
-    margin-left: 32px;
-}
-.box2{
-    width: 30%;
-    height: 300px;
-    background-color: green;
-
-}
-.box3{
-    width: 30%;
-    height: 300px;
-    background-color:blue;
-    float: right;
-    position: relative;
-    bottom: 300px;
-    margin-right: 32px;
-}
-.boxes{
-    margin-top: 60px;
+.icon1{
+    position: absolute; ;
+    right: 250px;
+    width: 56px;
+    cursor: pointer;
+    margin-top: 30px;
 }
